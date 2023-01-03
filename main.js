@@ -24,7 +24,7 @@ function modelLoaded(){
 function take_snapshot(){
           save("myfilter.jpg");
 }
-function gotPoses(){
+function gotPoses(results){
           if(results.length > 0){
                     lipX=results[0].pose.nose.x;
                     lipY=results[0].pose.nose.y;
